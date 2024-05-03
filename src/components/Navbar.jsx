@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <header className="sticky top-0 bg-white  z-40">
       <div className="relative z-50 shadow-md">
