@@ -94,18 +94,26 @@ export default function Navbar() {
         <div className="">
           <div className="absolute -z-10 transition duration-30 ease-in-out  bg-gray-200 top-0 right-0 bottom-0 left-0 h-80 w-full  lg:hidden">
             <ul className="h-80 flex flex-col gap-3 items-center justify-center">
-              <Link to="/" onClick={() => setOpen("/")}>
-                <li className="text-slate-800">Home</li>
-              </Link>
-              <Link to="about" onClick={() => setOpen("/about")}>
-                <li className="text-slate-800">About</li>
-              </Link>
-              <Link to="contact" onClick={() => setOpen("/contact")}>
-                <li className="text-slate-800">Contact</li>
-              </Link>
-              <Link to="portfolio" onClick={() => setOpen("/portfolio")}>
-                <li className="text-slate-800">Portfolio</li>
-              </Link>
+              <li className="text-slate-800">
+                <Link to="/" onClick={() => setOpen("/")}>
+                  Home
+                </Link>
+              </li>
+              <li className="text-slate-800">
+                <Link to="portfolio" onClick={() => setOpen("/portfolio")}>
+                  Portfolio
+                </Link>
+              </li>
+              <li className="text-slate-800">
+                <Link to="about" onClick={() => setOpen("/about")}>
+                  About
+                </Link>
+              </li>
+              <li className="text-slate-800">
+                <Link to="contact" onClick={() => setOpen("/contact")}>
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

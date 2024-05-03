@@ -23,33 +23,29 @@ export default function Footer() {
             <div class="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
               <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                 <li>
-                  <a
-                    href="#"
-                    title=""
+                  <Link
+                    to="portfolio"
                     class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
-                    About
-                  </a>
+                    Portfolio
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
-                    title=""
+                  <Link
+                    to="about"
                     class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
-                    Services
-                  </a>
+                    About Me
+                  </Link>
                 </li>
-
                 <li>
-                  <a
-                    href="#"
-                    title=""
+                  <Link
+                    to="contact"
                     class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
-                    Privacy Policy
-                  </a>
+                    Contact
+                  </Link>
                 </li>
               </ul>
 

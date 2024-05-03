@@ -22,7 +22,7 @@ export default function Herosection() {
               Emmanuel Mitchell
             </span>
           </p>
-          <p className="sm:text-xl font-bold  lg:text-6xl text-gray-700 lg:font-thin">
+          <p className="sm:text-xl font-bold  lg:text-6xl text-gray-700 lg:font-thin h-10">
             {text}
           </p>
           <p className="text-gray-700">
